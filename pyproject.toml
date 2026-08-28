@@ -1,0 +1,15 @@
+[project]
+name = "marimo-daq-pipeline"
+version = "0.1.0"
+description = "Pico DAQ demonstrator with explicitly selectable Python simulator"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "marimo>=0.15.0",
+    "plotly[express]>=6.0.0",
+    "polars>=1.30.0",
+    "pyserial>=3.5",
+]
+
+[dependency-groups]
+dev = []
